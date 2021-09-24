@@ -8,3 +8,4 @@ print("Aza lower_str2 megvan az str1-ben")
 upper_str2=str2.upper()
 print(str2,upper_str2)
 str3="user12"
+str4=""
