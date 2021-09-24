@@ -51,6 +51,29 @@ else:
     print("7.false")
 
 
+nums = [1, 2, 3]
+legk = nums[0]
+legn = nums[0]
+for x in nums:
+    if x>legn:
+        legn=x
+    elif x < legk:
+            legk = x
+
+print(legk,legn)
+
+char = "A"
+maganhangzok=["a","á","e","é","i","í","o","ó","ö","ő","u","ú","ü","ű"]
+if char.lower() in maganhangzok:
+    print("true")
+
+elif char.isnumeric():
+    print("number")
+else:
+    print("false")
+
+
+
 
 
 
